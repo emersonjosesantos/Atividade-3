@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    font-family: fantasy Medium;
+    background-color: black;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    border-bottom: 3px white solid;
+    align-items: center;
+}
+
+.titulo{
+margin: 0px;
+color: aqua;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+ .header .container{
+     height: 100%;
+   justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    width: 300px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    color: aqua;
+    display: flex;
+    padding: 0;
+}
+
+.banner{
+    height: 1000px ;
+    background-image:url(agua.jpg);
+    background-size: cover;
+}
+
+.banner .card{
+    background-color: black;
+    height:900px ;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+    
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.btn{
+    font-family: fantasy Medium;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 300;
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+input{
+    height: 20px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+}
+
+.banner .card{
+    color:aqua;
+    border-radius: 7px;  
+}
+
+.int{
+    font-family: fantasy Medium;
+    
+    color: rgba(0, 255, 255, 0.212);
+    
+}
